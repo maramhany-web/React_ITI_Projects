@@ -9,7 +9,7 @@
 7. Forms
 7. Display and Layout
 8. Types of Web Design 
-9. HTML Document Structure كان المفروض تبقى فوق بس نستيها 
+9. HTML Document Structure 
 
 # **1. HTML and How it started**
 ## 1.1 what is HTML?
