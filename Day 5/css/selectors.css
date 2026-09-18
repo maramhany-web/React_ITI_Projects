@@ -1,0 +1,22 @@
+/* Selectors for the pizza restaurant website */
+a {
+    color: #e94918;
+}
+h2 {
+    color: #640505;
+}
+fieldset legend {
+    color: #d80909;
+    font-weight: bold;
+}
+input[type="submit"] ,input[type="reset"] {
+    background-color: #f11010;
+    color: white;
+    border: none;
+}
+input[type="submit"]:hover , input[type="reset"]:hover {
+    background-color: #eb430c;
+}
+label {
+    color: #df3b00;
+}
