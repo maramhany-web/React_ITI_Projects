@@ -1,0 +1,38 @@
+/* h1 {
+    --color: rgb(2, 218, 153);
+    color: var(--color);
+    text-align: center;
+}
+:root{ 
+    --main-color: rgb(21, 18, 190);
+    --secondary-color: rgb(96, 253, 253);
+}
+p {
+    color: var(--main-color);
+    background-color: var(--secondary-color);
+} */
+
+/*p { 
+    color: rgb(57, 10, 68);
+    background-color: rgb(205, 152, 217);
+    width: 300px;
+    height: 20vh;
+}*/
+
+/*h1 {
+    color: rgb(205, 152, 217);
+    background-color: rgb(61, 11, 107);
+    text-align: center;
+    width: 80%;
+    height: 10vh;
+}*/
+
+/*div{
+    color: rgb(57, 43, 69, 0.8);
+    background-image: url(../assets/image/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}*/

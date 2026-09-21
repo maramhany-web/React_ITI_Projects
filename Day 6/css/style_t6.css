@@ -1,0 +1,60 @@
+:root {
+    --primary-color: #1cd070;    
+    --secondary-color: palegreen ;
+    --text-color:#064936;    
+}
+*{
+    color:var(--text-color) ;
+}
+
+.navbar{
+    background-color:var(--primary-color);
+    width: 100% ;
+    height: 40px;;
+}
+
+.about{
+    color:#1a1e21 ; /* class more specificity than inversal selector*/ 
+    background-color:var(--secondary-color) ;
+    
+}
+h2 {
+    color :palegreen;
+    background-color :#1cd070;
+    width :100%;
+    height: 40px;
+    text-align: center !important; /*does not change position*/
+}
+.title_about h2{
+    color: #1a1e21;
+    background-color: #fada5a;
+    width: 100%;
+}
+ul li
+{ 
+    color:var(--primary-color);
+    border: #1a1e21;
+}
+#contact {
+    background-color:palegreen;
+    width: 100%;
+    
+}
+table {
+    border:#ecbb18 ;
+    background-color: #fada5a;
+    width: 100% ;
+    text-align: center;
+}
+.certificates{
+    cursor :grab;
+}
+hr {
+    border: 0;
+    height: 20px;
+}
+.skills li {
+    background-color: #f0fdf4;
+    color: var(--primary-color);
+    font-size: large;
+}
