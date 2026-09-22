@@ -1,0 +1,112 @@
+/*.container{
+    background-color: #7c5d53;
+    color:#eacec5;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 4px #c68875;
+    border: 4px solid #c68875;
+    border-radius: 10px;
+
+}
+.container img{
+    color: #c68875;
+    background-color: aliceblue;
+    width: 90px;
+    margin: 50px auto;
+    border: #7c5d53;
+    border-radius: 10px;
+}
+.container button{
+    background-color: #c68875;
+    width: 80px;
+    margin: 30px auto;
+    border: #7c5d53;
+    border-radius: 10px;
+
+}*/
+/*div p{
+    color: black;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(204, 213, 210);
+    width: 80%;
+    text-shadow: 0 0 3px blue;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    text-overflow: ellipsis;
+}*/
+
+
+:root{
+    --first-color:#2E0B1F;
+    --second-color:#5C1140;
+    --third-color:#c6094e;
+    --fourth-color:#F2B9D3;
+}
+
+body {
+    font-family: 'BioRhyme Expanded', serif;
+    background-image:url(../assets/images/3.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+.card{
+    color:var(--fourth-color);
+    background-color:var(--first-color);
+    width: 30%;
+    height: 40rem;
+    margin:40px auto 40px auto;
+    padding: 10px auto;
+    border: solid var(--second-color);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 4px 0px 10px var(--third-color);
+    box-sizing: border-box;
+}
+.card img{
+    width: 150px;
+    margin: 40px auto;
+    border: 2px outset var(--first-color);
+    box-shadow:5px 3px 10px var(--third-color);
+    border-radius:100%;
+}
+h1{
+    color:#f2b9d3;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 500;
+    font-style:normal;
+    padding: 20px;
+    margin: 5px auto;
+}
+.role {
+    color: #F2B9D3;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    font-style:normal;
+}
+.quote{ 
+    width: 85%;
+    margin: 2px auto;
+}
+button{
+    color: #2E0B1F;
+    background-color: #F2B9D3;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 7px;
+    cursor:pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
+/* bonus :) */
+button:hover{
+    color: #F2B9D3;
+    background-color: var(--third-color);
+}
